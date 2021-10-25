@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3.0 - Domain\ConsultaCEP.WebApi.Domain\ConsultaCEP.WebApi.Domain.csproj" />
+    <ProjectReference Include="..\..\4.0 - Infrastructure\4.2 - ExternalServices\ConsultaCEP.WebApi.ExternalServices\ConsultaCEP.WebApi.ExternalServices.csproj" />
+  </ItemGroup>
+
+</Project>
